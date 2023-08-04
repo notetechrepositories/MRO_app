@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mro_app/SplashScreen/splashscreen.dart';
+import 'package:mro_appl/SplashScreen/splashscreen.dart';
 
 
 void main() {

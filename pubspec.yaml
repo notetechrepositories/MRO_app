@@ -59,12 +59,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #     - mro_app\assests\images\homelogo.png
-      # - assets/images/ttlogo.png
-
+  assets:
+    - assets/images/homelogo.png
+    
+    
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
