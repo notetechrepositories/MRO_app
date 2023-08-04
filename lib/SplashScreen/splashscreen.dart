@@ -67,9 +67,9 @@ class _SplashScreenState extends State<SplashScreen> {
         children: [
           Center(
             child:Padding(padding: EdgeInsets.fromLTRB(0, 60, 0, 0),child: Column(
-              // children: [
-              //   Image.asset('assets/images/ttlogo.png'),
-              // ],
+              children: [
+                Image.asset('assets/images/ttlogo.png'),
+              ],
             ),),
               
 
