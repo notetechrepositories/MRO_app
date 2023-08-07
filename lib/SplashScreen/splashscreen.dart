@@ -32,7 +32,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 width: 150,
                 height: 30,
                 child: Image.asset(
-                 'assets/images/homelogo.png',
+                  'assets/images/homelogo.png',
                 ),
               ),
             ],
@@ -59,24 +59,23 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
         ],
       ),
-    
     );
     Center(
-      child: 
-      Container(child:Stack(
+        child: Container(
+      child: Stack(
         children: [
           Center(
-            child:Padding(padding: EdgeInsets.fromLTRB(0, 60, 0, 0),child: Column(
-              children: [
-                Image.asset('assets/images/ttlogo.png'),
-              ],
-            ),),
-              
-
-            
+            child: Padding(
+              padding: EdgeInsets.fromLTRB(0, 60, 0, 0),
+              child: Column(
+                children: [
+                  Image.asset('assets/images/ttlogo.png'),
+                ],
+              ),
+            ),
           )
         ],
-      ) ,)
-    );
+      ),
+    ));
   }
 }
